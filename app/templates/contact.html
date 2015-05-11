@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="contact">
+	<div class=" logo">
+		<img id="logos" src="{{ url_for('static', filename='graffiti_dondi_large.png') }}">
+	</div>
+	<div class="nav">
+		<ul>
+			<li><a href="{{ url_for('index') }}">BXD</a></li>
+			<li><a href="http://www.meetup.com/TheBronxDigitalMeetup/" target="_blank">Meetup</a></li>
+			<li><a href="{{ url_for('contact') }}">Contact</a></li>
+		</ul>
+	</div>
+	<div class="contact-form">
+		<form method="post", action="" name="contact">
+			{{ form.hidden_tag() }}
+			<div class="form-inputs">
+				<label class="form-label" for="first_name">First Name:</label><br>
+				{{ form.first_name(class = "form-text") }}
+				{% for error in form.errors.first_name %}
+				<span class="help-inline">[{{ error }}]</span><br>
+				{% endfor %}
+			</div>
+			<div class="form-inputs">
+				<label class="form-label" for="last_name">Last Name:</label><br>
+				{{ form.last_name(class = "form-text") }}
+				{% for error in form.errors.last_name %}
+				<span class="help-inline">[{{ error }}]</span><br>
+				{% endfor %}
+			</div>
+			<div class="form-inputs">
+				<label class="form-label" for="email">Email:</label><br>
+				{{ form.email(class = "form-text") }}
+				{% for error in form.errors.email %}
+				<span class="help-inline">[{{ error }}]</span><br>
+				{% endfor %}
+			</div>
+			<div class="form-inputs">
+				<label class="form-label" for="organization">Your Organization:</label><br>
+				{{ form.organization(class = "form-text") }}
+				{% for error in form.errors.organization %}
+				<span class="help-inline">[{{ error }}]</span><br>
+				{% endfor %}
+			</div>
+			<div class="form-inputs">
+				<label class="form-label" for="message">Message:</label><br>
+				{{ form.message(class = "form-text") }}
+				{% for error in form.errors.message %}
+				<span class="help-inline">[{{ error }}]</span><br>
+				{% endfor %}
+			</div>
+			<div class="submit-btn">
+				<input class="submit-btn" type="submit" value="Contact Us">
+			</div>
+		</form>
+	</div>
+<div>
+{% endblock %}
+

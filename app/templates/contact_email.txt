@@ -1,0 +1,9 @@
+A new entry has been submitted to the contact form on bronx.digial
+
+First Name : {{ firstname }}
+Last Name : {{ lastname }}
+Email : {{ email }}
+Organization : {{ org }}
+Message : {{ msg }}
+
+

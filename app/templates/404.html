@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="error-page">
+	<div class="error-text">
+		<h1>THIS PAGE DOES NOT EXIST<br>
+			<a href="{{ url_for('index') }}">GO BACK</a>
+		</h1>
+	</div>
+</div>
+{% endblock %}
