@@ -11,49 +11,64 @@
 			<li><a href="{{ url_for('contact') }}">Contact</a></li>
 		</ul>
 	</div>
-	<div class="contact-form">
-		<form method="post", action="" name="contact">
-			{{ form.hidden_tag() }}
+	<div class="slider-content">
+		<h2 id="slider-title">Title</h2>
+		<p id="slider-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat.</p>
+	</div>
+</div>
+<div class="contact-form">
+	<form method="post", action="" name="contact">
+		{{ form.hidden_tag() }}
+		<div class="row">
 			<div class="form-inputs">
 				<label class="form-label" for="first_name">First Name:</label><br>
-				{{ form.first_name(class = "form-text") }}
+				{{ form.first_name(class = "form-text") }}<br>
 				{% for error in form.errors.first_name %}
 				<span class="help-inline">[{{ error }}]</span><br>
 				{% endfor %}
 			</div>
 			<div class="form-inputs">
 				<label class="form-label" for="last_name">Last Name:</label><br>
-				{{ form.last_name(class = "form-text") }}
+				{{ form.last_name(class = "form-text") }}<br>
 				{% for error in form.errors.last_name %}
 				<span class="help-inline">[{{ error }}]</span><br>
 				{% endfor %}
 			</div>
+		</div>
+		<div class="row">
 			<div class="form-inputs">
 				<label class="form-label" for="email">Email:</label><br>
-				{{ form.email(class = "form-text") }}
+				{{ form.email(class = "form-text") }}<br>
 				{% for error in form.errors.email %}
 				<span class="help-inline">[{{ error }}]</span><br>
 				{% endfor %}
 			</div>
 			<div class="form-inputs">
 				<label class="form-label" for="organization">Your Organization:</label><br>
-				{{ form.organization(class = "form-text") }}
+				{{ form.organization(class = "form-text") }}<br>
 				{% for error in form.errors.organization %}
 				<span class="help-inline">[{{ error }}]</span><br>
 				{% endfor %}
 			</div>
+		</div>
+		<div class="row">
 			<div class="form-inputs">
 				<label class="form-label" for="message">Message:</label><br>
-				{{ form.message(class = "form-text") }}
+				{{ form.message(class = "form-text") }}<br>
 				{% for error in form.errors.message %}
 				<span class="help-inline">[{{ error }}]</span><br>
 				{% endfor %}
 			</div>
+		</div>
+		<div class="row">
 			<div class="submit-btn">
 				<input class="submit-btn" type="submit" value="Contact Us">
 			</div>
-		</form>
-	</div>
-<div>
+		</div>
+	</form>
+</div>
 {% endblock %}
 

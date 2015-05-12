@@ -7,6 +7,13 @@ body{
 	line-height: 30px;
 }
 
+h1{
+	font-size: 45px;
+}
+
+h2{
+	font-size: 35px;
+}
 .header{
 	width: 100%;
 	min-height: 700px;
@@ -19,6 +26,7 @@ body{
 
 .header-img{
 	width: 100%;
+	z-index: -1;
 	height: 100%;
 	margin: 0;
 	padding: 0;
@@ -33,9 +41,9 @@ body{
 	display: inline;
 	position: absolute;
 	background-color: rgba(255, 255, 255, .75);
-	margin-top: 240px;
+	margin-top: 220px;
 	z-index: 10;
-	width: 33%;
+	width: 350px;
 	margin-left: 10px;
 	border-radius: 5px;
 }
@@ -64,7 +72,7 @@ body{
 }
 
 .logo{
-	width:33%;
+	width:350px;
 	position: absolute;
 	margin-top: 10px;
 	margin-left: 10px;
@@ -87,7 +95,7 @@ body{
 	font-size: 16px;
 	position: absolute;
 	margin-top: 350px;
-	margin-left: 750px;
+	margin-left: 10px;
 	border-radius: 5px;
 }
 
@@ -105,9 +113,11 @@ body{
 }
 
 .video{
-	float: left;
+	float: right;
 	width: 45%;
-	margin-right: 75px;
+	margin-right: 50px;
+	margin-top: 100px;
+	z-index: 10;
 }
 
 .content{
@@ -126,11 +136,6 @@ body{
 /* Contact Page */ 
 
 
-.contact-form{
-	float: right;
-	width: 30%;
-	margin-top: 25px;
-}
 
 .contact{
 	width: 100%;
@@ -143,35 +148,52 @@ body{
 	position: relative;
 }
 
-.contact label{
+.contact-form{
+	width:100%;
+	margin:50px;
+}
+
+.form-inputs{
+	display: inline-block;
+	margin-right: 150px;
+}
+
+.row{
+	margin:50px;
+}
+
+.contact-form label{
 	margin-top: 25px;
-	font-size: 18px;
+	font-size: 24px;
 	font-weight: 800;
-	color: #fff;
+	color: #252525;
+	
 }
 
-.contact input {
+.contact-form input {
 	padding: 10px;
 	border-radius: 5px;
 	margin:10px;
 	margin-left: 0;
 	width: 250px;
+	border: 1px solid #252525;
 }
 
-.contact textarea {
-	padding: 10px;
+.contact-form textarea {
+	padding: 50px;
 	border-radius: 5px;
 	margin:10px;
 	margin-left: 0;
-	width: 250px;
+	width: 650;
+	border: 1px solid #252525;
 
 }
 
 .submit-btn input{
 	padding: 15px;
-	color: #fff;
-	background-color: rgba(255, 255, 255, 0);
-	border: 3px solid #fff;
+	color: #252525;
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px solid #252525;
 	border-radius: 10px;
 	font-weight: 800;
 	font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
@@ -181,5 +203,5 @@ body{
 
 .submit-btn input:hover{
 	background-color: #551A8B;
-
+	color: #fff;
 }
