@@ -89,13 +89,14 @@ h2{
 
 .slider-content{
 	color: #000;
+	float: right;
 	background-color: rgba(255, 255, 255, .85);
 	padding: 25px;
 	width: 400px;
 	font-size: 16px;
 	position: absolute;
 	margin-top: 350px;
-	margin-left: 10px;
+	margin-left: 700px;
 	border-radius: 5px;
 }
 
@@ -204,4 +205,94 @@ h2{
 .submit-btn input:hover{
 	background-color: #551A8B;
 	color: #fff;
+}
+
+.help-inline{
+	border-radius: 5px;
+	padding: 5px;
+	color: #b20000;
+	background-color: #ff9999
+}
+
+.signup{
+	float: left;
+	width:45%;
+}
+
+.signup label{
+	margin-top: 25px;
+	font-size: 24px;
+	font-weight: 800;
+	color: #252525;
+	
+}
+
+.signup input {
+	padding: 10px;
+	border-radius: 5px;
+	margin:10px;
+	margin-left: 0;
+	width: 250px;
+	border: 1px solid #252525;
+	margin-bottom: 0;
+}
+.signup select{
+	padding: 10px;
+	border-radius: 5px;
+	margin:10px;
+	margin-left: 0;
+	margin-bottom: 0;
+	width: 250px;
+	border: 1px solid #252525;
+	height:35px;
+}
+
+.signup textarea {
+	padding: 50px;
+	border-radius: 5px;
+	margin:10px;
+	margin-left: 0;
+	margin-bottom: 0;
+	width: 650;
+	border: 1px solid #252525;
+
+}
+
+#ss-submit {
+	padding: 15px;
+	color: #252525;
+	background-color: #fff;
+	border: 1px solid #252525;
+	border-radius: 10px;
+	margin-bottom: 0;
+	font-weight: 800;
+	font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
+	font-size: 18px;
+	width: 175px;
+}
+
+#ss-submit:hover{
+	background-color: #551A8B;
+	color: #fff;
+}
+
+.submit-btn input:hover{
+	background-color: #551A8B;
+	color: #fff;
+}
+
+.required-message{
+	font-size: 14px; 
+	font-color: #b3b3b3;
+}
+
+.ss-secondary-text{
+	font-size: 14px; 
+	font-color: #b3b3b3;
+}
+
+.ss-form-question{
+	display: inline-block;
+	margin-right: 50px;
+	margin-bottom: 50px;
 }
