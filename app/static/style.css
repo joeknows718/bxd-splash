@@ -133,6 +133,10 @@ h2{
 	margin-top: 0;
 }
 
+.content img{
+	width:80%;
+	margin: 0 auto;
+}
 
 /* Contact Page */ 
 
