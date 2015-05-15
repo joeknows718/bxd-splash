@@ -7,12 +7,28 @@ body{
 	line-height: 30px;
 }
 
+a{
+	text-decoration: none;
+	color: #551A8B;
+}
+a:hover{
+	font-weight: bold;
+}
 h1{
 	font-size: 45px;
 }
 
 h2{
 	font-size: 35px;
+}
+
+ol{
+	list-style-type: none;
+	padding:0;
+}
+li{
+	margin-bottom: 20px;
+
 }
 .header{
 	width: 100%;
@@ -34,7 +50,7 @@ h2{
 	background: no-repeat center bottom scroll; 
 	background-size: cover; 
 	position: absolute;
-	background-image: url('http://www.brooklynstreetart.com/theblog/wp-content/uploads/2010/07/brooklyn-street-art-907-ufo-sadue-jaime-rojo-web.jpg');
+	background-image: url('/static/hackathon.jpg');
 }
 
 .nav {
@@ -96,7 +112,7 @@ h2{
 	font-size: 16px;
 	position: absolute;
 	margin-top: 350px;
-	margin-left: 700px;
+	margin-left: 900px;
 	border-radius: 5px;
 }
 
@@ -109,7 +125,7 @@ h2{
 .content-wrapper{
 	margin: 75px;
 	min-height: 300;
-	margin-top: 100px;
+	margin-top: 50px;
 	color: #252525;
 }
 
@@ -128,14 +144,18 @@ h2{
 	margin-right:20px;
 }
 
-.content h1{
+.content-wrapper h2{
 	color: #551A8B;
 	margin-top: 0;
 }
 
 .content img{
 	width:80%;
-	margin: 0 auto;
+	margin: 25px auto;
+}
+.content p{
+	width:80%;
+	text-align: justify;
 }
 
 /* Contact Page */ 
@@ -147,20 +167,21 @@ h2{
 	min-height: 700px;
 	background: no-repeat center bottom scroll; 
 	background-size: cover; 
-	background-image: url('/static/dondi.jpg');
+	background-image: url('/static/workshop1.jpg');
 	margin: 0;
 	padding: 0;
 	position: relative;
 }
 
 .contact-form{
-	width:100%;
+	width:55%;
+	display: inline-block;
 	margin:50px;
 }
 
 .form-inputs{
 	display: inline-block;
-	margin-right: 150px;
+	margin-right: 75px;
 }
 
 .row{
@@ -173,6 +194,11 @@ h2{
 	font-weight: 800;
 	color: #252525;
 	
+}
+
+.contact-form h2{
+	color: #551A8B;
+	margin-left: 50px;
 }
 
 .contact-form input {
@@ -189,7 +215,7 @@ h2{
 	border-radius: 5px;
 	margin:10px;
 	margin-left: 0;
-	width: 650;
+	width: 500px;
 	border: 1px solid #252525;
 
 }
@@ -300,3 +326,67 @@ h2{
 	margin-right: 50px;
 	margin-bottom: 50px;
 }
+
+#contact-page{
+	margin-top: 50px;
+	width: 40%;
+}
+
+#contact-page h2{
+	color:#551A8B;
+}
+
+
+.contact-wrapper{
+	display: inline-block;
+}
+
+.contact-form h2{
+	line-height: 40px;
+}
+
+.footer{
+	background-color: #252525;
+	color: #F7F7F7 ;
+}
+
+.footer-right{
+	float: right;
+	margin-right:  50px;
+	width: 45%;
+	display: inline;
+	text-align: right;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+
+.footer-left{
+	width: 45%;
+	float: left;
+	display: inline;
+	margin-left:50px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.footer a{
+	color: #f7f7f7;
+}
+
+.footer a:hover{
+	font-weight: bold;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

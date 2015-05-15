@@ -1,8 +1,8 @@
 var currentBackground = 0;
 var backgrounds = [];
-backgrounds[0] = 'http://www.brooklynstreetart.com/theblog/wp-content/uploads/2010/07/brooklyn-street-art-907-ufo-sadue-jaime-rojo-web.jpg'; //change  logo 1 by switching filename
-backgrounds[1] = '/static/dondi.jpg'; //change  logo 1 by switching filename
-backgrounds[2] = 'http://www.mtn-world.com/wp-content/uploads/2013/05/ghost_graffiti_mtn3.jpg';//change  logo 1 by switching filename
+backgrounds[0] = '/static/hackathon.jpg'; //change  logo 1 by switching filename
+backgrounds[1] = '/static/arial.jpg'; //change  logo 1 by switching filename
+backgrounds[2] = '/static/i<3BX.jpg';//change  logo 1 by switching filename
 
 var currentLogos = 0;
 var logos = [];
