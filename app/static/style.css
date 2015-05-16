@@ -1,0 +1,392 @@
+body{
+	font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
+	font-size: 16px;
+	margin: 0;
+	background-color: #F7F7F7;
+	font-weight: 600px;
+	line-height: 30px;
+}
+
+a{
+	text-decoration: none;
+	color: #551A8B;
+}
+a:hover{
+	font-weight: bold;
+}
+h1{
+	font-size: 45px;
+}
+
+h2{
+	font-size: 35px;
+}
+
+ol{
+	list-style-type: none;
+	padding:0;
+}
+li{
+	margin-bottom: 20px;
+
+}
+.header{
+	width: 100%;
+	min-height: 700px;
+	background: no-repeat center bottom scroll; 
+	background-size: cover; 
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.header-img{
+	width: 100%;
+	z-index: -1;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	min-height: 700px;
+	background: no-repeat center bottom scroll; 
+	background-size: cover; 
+	position: absolute;
+	background-image: url('/static/hackathon.jpg');
+}
+
+.nav {
+	display: inline;
+	position: absolute;
+	background-color: rgba(255, 255, 255, .75);
+	margin-top: 220px;
+	z-index: 10;
+	width: 350px;
+	margin-left: 10px;
+	border-radius: 5px;
+}
+
+.nav a{
+	text-decoration: none;
+	color: #252525;
+
+}
+
+.nav a:hover{
+	color: #551A8B
+}
+
+.nav ul{
+	list-style-type: none;
+	padding-left: 70px;
+
+}
+
+.nav li {
+	display: inline;
+	font-weight: 700;
+	font-size: 18px;
+	padding: 15px;
+}
+
+.logo{
+	width:350px;
+	position: absolute;
+	margin-top: 10px;
+	margin-left: 10px;
+	padding: 0;
+	background-color: rgba(255, 255, 255, .75);
+	border-radius: 5px;
+}
+
+.logo img{
+	width:75%;
+	padding-left: 45px;
+	padding-bottom: 15px;
+}
+
+.slider-content{
+	color: #000;
+	float: right;
+	background-color: rgba(255, 255, 255, .85);
+	padding: 25px;
+	width: 400px;
+	font-size: 16px;
+	position: absolute;
+	margin-top: 350px;
+	margin-left: 900px;
+	border-radius: 5px;
+}
+
+.slider-content h2{
+	color: #551A8B;
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+
+.content-wrapper{
+	margin: 75px;
+	min-height: 300;
+	margin-top: 50px;
+	color: #252525;
+}
+
+.video{
+	float: right;
+	width: 45%;
+	margin-right: 50px;
+	margin-top: 100px;
+	z-index: 10;
+}
+
+.content{
+	width: 45%;
+	float: right;
+	margin-left: -55;
+	margin-right:20px;
+}
+
+.content-wrapper h2{
+	color: #551A8B;
+	margin-top: 0;
+}
+
+.content img{
+	width:80%;
+	margin: 25px auto;
+}
+.content p{
+	width:80%;
+	text-align: justify;
+}
+
+/* Contact Page */ 
+
+
+
+.contact{
+	width: 100%;
+	min-height: 700px;
+	background: no-repeat center bottom scroll; 
+	background-size: cover; 
+	background-image: url('/static/workshop1.jpg');
+	margin: 0;
+	padding: 0;
+	position: relative;
+}
+
+.contact-form{
+	width:55%;
+	display: inline-block;
+	margin:50px;
+}
+
+.form-inputs{
+	display: inline-block;
+	margin-right: 75px;
+}
+
+.row{
+	margin:50px;
+}
+
+.contact-form label{
+	margin-top: 25px;
+	font-size: 24px;
+	font-weight: 800;
+	color: #252525;
+	
+}
+
+.contact-form h2{
+	color: #551A8B;
+	margin-left: 50px;
+}
+
+.contact-form input {
+	padding: 10px;
+	border-radius: 5px;
+	margin:10px;
+	margin-left: 0;
+	width: 250px;
+	border: 1px solid #252525;
+}
+
+.contact-form textarea {
+	padding: 50px;
+	border-radius: 5px;
+	margin:10px;
+	margin-left: 0;
+	width: 500px;
+	border: 1px solid #252525;
+
+}
+
+.submit-btn input{
+	padding: 15px;
+	color: #252525;
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px solid #252525;
+	border-radius: 10px;
+	font-weight: 800;
+	font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
+	font-size: 18px;
+	width: 175px;
+}
+
+.submit-btn input:hover{
+	background-color: #551A8B;
+	color: #fff;
+}
+
+.help-inline{
+	border-radius: 5px;
+	padding: 5px;
+	color: #b20000;
+	background-color: #ff9999
+}
+
+.signup{
+	float: left;
+	width:45%;
+}
+
+.signup label{
+	margin-top: 25px;
+	font-size: 24px;
+	font-weight: 800;
+	color: #252525;
+	
+}
+
+.signup input {
+	padding: 10px;
+	border-radius: 5px;
+	margin:10px;
+	margin-left: 0;
+	width: 250px;
+	border: 1px solid #252525;
+	margin-bottom: 0;
+}
+.signup select{
+	padding: 10px;
+	border-radius: 5px;
+	margin:10px;
+	margin-left: 0;
+	margin-bottom: 0;
+	width: 250px;
+	border: 1px solid #252525;
+	height:35px;
+}
+
+.signup textarea {
+	padding: 50px;
+	border-radius: 5px;
+	margin:10px;
+	margin-left: 0;
+	margin-bottom: 0;
+	width: 650;
+	border: 1px solid #252525;
+
+}
+
+#ss-submit {
+	padding: 15px;
+	color: #252525;
+	background-color: #fff;
+	border: 1px solid #252525;
+	border-radius: 10px;
+	margin-bottom: 0;
+	font-weight: 800;
+	font-family: 'Helvetica Neue', Helvetica, arial, sans-serif;
+	font-size: 18px;
+	width: 175px;
+}
+
+#ss-submit:hover{
+	background-color: #551A8B;
+	color: #fff;
+}
+
+.submit-btn input:hover{
+	background-color: #551A8B;
+	color: #fff;
+}
+
+.required-message{
+	font-size: 14px; 
+	font-color: #b3b3b3;
+}
+
+.ss-secondary-text{
+	font-size: 14px; 
+	font-color: #b3b3b3;
+}
+
+.ss-form-question{
+	display: inline-block;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+#contact-page{
+	margin-top: 50px;
+	width: 40%;
+}
+
+#contact-page h2{
+	color:#551A8B;
+}
+
+
+.contact-wrapper{
+	display: inline-block;
+}
+
+.contact-form h2{
+	line-height: 40px;
+}
+
+.footer{
+	background-color: #252525;
+	color: #F7F7F7 ;
+}
+
+.footer-right{
+	float: right;
+	margin-right:  50px;
+	width: 45%;
+	display: inline;
+	text-align: right;
+	padding-top:50px;
+	padding-bottom: 50px;
+}
+
+.footer-left{
+	width: 45%;
+	float: left;
+	display: inline;
+	margin-left:50px;
+	padding-top:50px;
+	padding-bottom:50px;
+}
+
+.footer a{
+	color: #f7f7f7;
+}
+
+.footer a:hover{
+	font-weight: bold;
+}
+
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* close commented backslash hack */

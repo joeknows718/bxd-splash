@@ -1,0 +1,11 @@
+Hey {{ firstname }}
+
+Thanks for reaching out to BXD! We have recieved your message and will be in contact ASAP!
+
+For more info on upcoming BXD or our upcoming events visit our website:
+
+{{ url_for('index', _external=True) }}
+
+Best,
+
+The BXD Team

@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>
+		{% if title %}
+			{{ title }}
+		{% else %}
+		BXD|The Bronx Digital
+		{% endif %}
+	</title>
+	<meta charset="UTF-8">
+	<meta name="keywords" content="bronx, the bronx, bx, technology, south bronx, bronx tech, tech,  hunts point, soundview, concourse, mott haven, port morris, tremont, morrisania, youth education, tech education, web development, BXDP, pipeline, new york technology, hiphop, hip hop, new york tech pipeline, entreprenuership, startup, start up, knowledge house ">
+	<meta name="description" content="The Bronx Digital is a grassroots movement of tech professionals, educators, stakeholders, and community members working together to turn around our borough by leveraging technology and entreprenuership.">
+	<link rel=stylesheet type=text/css href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js">
+	<link rel="icon" type="image/png" href="{{ url_for('static', filename='favicon.png') }}">
+	<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+</head>
+<body>
+{% block content %}{% endblock %}
+<div class="footer clearfix">
+	<div class="footer-left">
+		<a href="{{ url_for('index') }}">Bronx Digital</a>
+	</div>
+	<div class="footer-right">
+		 <a href="http://www.meetup.com/TheBronxDigitalMeetup/" target="_blank">Meetup</a> |
+		 <a href="{{ url_for('contact') }}">Contact</a> |
+		 <a href-"https://twitter.com/BronxDigital" target="_blank"><i class="fa fa-twitter"></i></a>
+	</div>
+</div>
+</body>
+</html>
+
