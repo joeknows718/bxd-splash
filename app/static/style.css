@@ -19,7 +19,8 @@ h1{
 }
 
 h2{
-	font-size: 35px;
+	font-size: 32px;
+	line-height: 35px;
 }
 
 ol{
@@ -27,7 +28,7 @@ ol{
 	padding:0;
 }
 li{
-	margin-bottom: 20px;
+	margin-bottom: 15px;
 
 }
 .header{
@@ -112,7 +113,7 @@ li{
 	font-size: 16px;
 	position: absolute;
 	margin-top: 350px;
-	margin-left: 900px;
+	margin-left: 700px;
 	border-radius: 5px;
 }
 
@@ -141,20 +142,23 @@ li{
 	width: 45%;
 	float: right;
 	margin-left: -55;
-	margin-right:20px;
+	margin-right:50px;
 }
 
+.home{
+	margin-right: 0;
+}
 .content-wrapper h2{
 	color: #551A8B;
 	margin-top: 0;
 }
 
 .content img{
-	width:80%;
+	width:100%;
 	margin: 25px auto;
 }
 .content p{
-	width:80%;
+	width:100%;
 	text-align: justify;
 }
 
@@ -177,6 +181,7 @@ li{
 	width:55%;
 	display: inline-block;
 	margin:50px;
+	margin-right: 0;
 }
 
 .form-inputs{
@@ -186,6 +191,7 @@ li{
 
 .row{
 	margin:50px;
+	margin-right: 0;
 }
 
 .contact-form label{
@@ -198,7 +204,7 @@ li{
 
 .contact-form h2{
 	color: #551A8B;
-	margin-left: 50px;
+	margin-left: 25px;
 }
 
 .contact-form input {
@@ -206,7 +212,7 @@ li{
 	border-radius: 5px;
 	margin:10px;
 	margin-left: 0;
-	width: 250px;
+	width: 200px;
 	border: 1px solid #252525;
 }
 
@@ -246,7 +252,7 @@ li{
 
 .signup{
 	float: left;
-	width:45%;
+	width:55%;
 }
 
 .signup label{
@@ -262,7 +268,7 @@ li{
 	border-radius: 5px;
 	margin:10px;
 	margin-left: 0;
-	width: 250px;
+	width: 200px;
 	border: 1px solid #252525;
 	margin-bottom: 0;
 }
@@ -272,7 +278,7 @@ li{
 	margin:10px;
 	margin-left: 0;
 	margin-bottom: 0;
-	width: 250px;
+	width: 200px;
 	border: 1px solid #252525;
 	height:35px;
 }
@@ -283,7 +289,7 @@ li{
 	margin:10px;
 	margin-left: 0;
 	margin-bottom: 0;
-	width: 650;
+	width: 550;
 	border: 1px solid #252525;
 
 }

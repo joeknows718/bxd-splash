@@ -12,18 +12,18 @@ logos[2] = 'static/world_map.png'; //change logo 3 by switching this file
 
 var currentTitle = 0; 
 var titles = [];
-titles[0] = 'Title'; //change title 1 by switching text
-titles[1] = 'Title2';//change title 2 by switching text
-titles[2] = 'Title3';//change title 3 by switching text
+titles[0] = 'Preparing our youth for the present and future:'; //change title 1 by switching text
+titles[1] = 'Uplifting our borough:';//change title 2 by switching text
+titles[2] = 'Join us:';//change title 3 by switching text
 
 var currentText = 0; 
 var text = [];
 //switch text below to change text 1
-text[0] = '1 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
+text[0] = 'The tech sector is among the highest-paying and fastest-growing industries. By 2020 there will be at least 2 million tech jobs with 291,000 jobs in New York City, representing $30 billion in wages each year.';
 //switch text below to change text 2
-text[1] = '2 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmo tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
+text[1] = '35% of 16-24 year olds in the Bronx are disconnected from school and work. Technology skills empower young people to become producers and thrive in the innovation economy. Support us in creating at least 1,000 jobs by 2020.  ';
 //switch text below to change text 3
-text[2] = '3 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.';
+text[2] = 'The private and public sectors must work together to bring economic opportunities to our young people. By implementing collective impact strategies and by leveraging meaningful partnerships, we can turn the Bronx into the next tech hub.';
 
 
 function changeBackground() {
